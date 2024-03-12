@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:linear-gradient(#000000, hsl(252, 73%, 15%));
+    text-align: center;
+}
+.top{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+header{
+    color: white;
+    background: linear-gradient(45deg, hsl(249, 56%, 45%) , black);
+    display: flex;
+    align-items: center;
+
+}
+hr{
+
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    background: linear-gradient(45deg, black, rgb(60, 32, 161));
+   justify-content: space-around;
+   padding: 20px;
+}
+
+.title{
+
+        font-family: "Protest Guerrilla", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+    font-size: 15pt;
+}
+
+a{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  
+
+    font-size: 12pt;
+    color: white;
+}
+
+.containerImagem{
+    width: 300px;
+    height: 200px;
+    margin: 20px auto;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(0, 0, 0);
+}
+i{
+    padding: 4px;
+    background-color: rgb(39, 40, 102);
+    border-radius: 30px;
+    margin: 8px;
+}
